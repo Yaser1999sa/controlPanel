@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>
+control
+</title>
+<div>
+<script type="text/javascript">
+function sliderChange(val) (
+document.getElementById ('sliderStatus').innerHTML = val;
+)
+</script>
+</head>
+<body>
+<form action="insert.php" method="post">
+<p> المحرك 1 </p>
+<input type="range"min"0" max"180" value="50" step="1" onchange="sliderChange(this.value)"/> 
+</br><br/>
+</span>
+<p> المحرك 2 </p>
+<input type="range"min"0" max"180" value="50" step="1" onchange="sliderChange(this.value)"/> 
+</br><br/>
+</span>
+<p> المحرك 3 </p>
+<input type="range"min"0" max"180" value="50" step="1" onchange="sliderChange(this.value)"/> 
+</br><br/>
+</span>
+<p> المحرك 4 </p>
+<input type="range"min"0" max"180" value="50" step="1" onchange="sliderChange(this.value)"/> 
+</br><br/>
+</span>
+<p> المحرك 5 </p>
+<input type="range"min"0" max"180" value="50" step="1" onchange="sliderChange(this.value)"/> 
+</br><br/>
+</span>
+<p> المحرك 6 </p>
+<input type="range"min"0" max"180" value="50" step="1" onchange="sliderChange(this.value)"/> 
+</br><br/>
+</span>
+</form>
+<button style= "color:red;border-radius:10px;"> تحفظ </button>
+<button style= "color:red;border-radius:10px;"> تشغيل </button>
+</div>
+</body>
+</html>
